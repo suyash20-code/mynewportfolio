@@ -87,7 +87,7 @@ const Contact = () => {
             transition={{ duration: 0.6, delay: 1.1 }}
             name="name"
           ></motion.input>
-          <motion.input
+          {/* <motion.input
             type="email"
             placeholder="Enter your email"
             required
@@ -96,7 +96,7 @@ const Contact = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 1.1 }}
             name="email"
-          ></motion.input>
+          ></motion.input> */}
         </div>
         <motion.textarea
           rows="6"
