@@ -83,24 +83,28 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "Web Design",
-    bgImage: "/work-1.png",
-  },
-  {
-    title: "Geo based app",
+    title: "Deliveroo clone",
     description: "Mobile App",
-    bgImage: "/work-2.png",
+    bgImage: "/deliveroclone.png",
+    link: "https://github.com/suyash20-code/Delivery",
   },
   {
-    title: "Photography site",
+    title: "Airbnb clone",
     description: "Web Design",
     bgImage: "/work-3.png",
+    link: "https://airbnb-two-eta.vercel.app/",
+  },
+  {
+    title: "Ecommerce site",
+    description: "Web Design",
+    bgImage: "/work-3.png",
+    link: "https://github.com/suyash20-code/EcommerceNextjs",
   },
   {
     title: "UI/UX designing",
     description: "UI/UX Design",
     bgImage: "/work-4.png",
+    link: "https://www.figma.com/design/vYqMAK2pnP1GYotdu6kjlw/Todolist-App-Figma?m=auto&t=KjxXL2guRHk0lRIl-6",
   },
 ];
 
