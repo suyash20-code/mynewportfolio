@@ -55,7 +55,7 @@ const Header = () => {
         building high-quality mobile and web applications.
       </motion.p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
-        <motion.a
+        {/* <motion.a
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}
@@ -64,7 +64,7 @@ const Header = () => {
         >
           contact me
           <Image src={assets.right_arrow_white} alt="" className="w-4"></Image>
-        </motion.a>
+        </motion.a> */}
         <motion.a
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
